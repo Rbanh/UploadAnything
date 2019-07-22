@@ -14,7 +14,7 @@ class UploadAnythingPlugin(octoprint.plugin.TemplatePlugin,
 
 	##-- Settings hooks
 	def get_settings_defaults(self):
-		return ({'allowed': '3mf, obj, stl, png, gif, jpg'})
+		return ({'allowed': '3mf, obj, stl, png, gif, jpg, bin'})
 	
 	##-- Template hooks
 	def get_template_configs(self):
